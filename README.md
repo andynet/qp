@@ -11,6 +11,7 @@ conda create -n quantum_programming
 conda activate quantum_programming
 conda install python
 conda install pip
-pip install dwave-ocean-sdk
 conda install -c spyder-ide spyder
+pip install dwave-ocean-sdk
+pip install dwave-ocean-sdk && dwave config create
 '''
